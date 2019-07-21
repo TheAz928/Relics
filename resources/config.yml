@@ -1,0 +1,94 @@
+---
+# Developed by TheAz928
+# Relics configuration file
+
+# Version, recommended to not change
+version: 1.0.2
+
+# Display relic discover particles
+particles: true
+
+# Relics spawn settings
+spawn-settings:
+  minY: 1
+  maxY: 50
+
+# Applicable blocks for relics
+# Put meta -1 for all blocks of it's type
+applicable:
+- "cobblestone:0"
+- "stone:-1"
+
+# Relics settings
+relics:
+- name: "&r&a&lAncient Relic"
+  spawn-chance: 500 # 50% chance, 10 = 1% chance
+  max-items: 5
+  broadcast: "&e{player} &7has found a rare &aAncient Relic!"
+  lore:
+  - "&7Very very rare item!!!"
+  - "&7Contains some good sh#t"
+  items:
+  - item: "diamond:0:1"
+    customName: NULL
+    lore: []
+    enchants: []
+    nbt: NULL
+    chance: 80
+  - item: "52:0:1"
+    customName: NULL
+    lore: []
+    enchants: []
+    nbt: NULL
+    chance: 10
+  - item: "iron_pickaxe:120:1"
+    customName: "&r&bTHE HASTY MINER"
+    lore: []
+    enchants:
+    - efficiency 10
+    nbt: NULL
+    chance: 20
+  - item: "iron_ingot:0:23"
+    customName: NULL
+    lore: []
+    enchants: []
+    nbt: NULL
+    chance: 50
+  - item: "iron_ingot:0:12"
+    customName: NULL
+    lore: []
+    enchants: []
+    nbt: NULL
+    chance: 50
+  - item: "iron_ingot:0:27"
+    customName: NULL
+    lore: []
+    enchants: []
+    nbt: NULL
+    chance: 50
+  - item: "iron_ingot:0:9"
+    customName: NULL
+    lore: []
+    enchants: []
+    nbt: NULL
+    chance: 50
+  - item: "iron_ingot:0:5"
+    customName: NULL
+    lore: []
+    enchants: []
+    nbt: NULL
+    chance: 50
+  - item: "iron_ingot:0:3"
+    customName: NULL
+    lore: []
+    enchants: []
+    nbt: NULL
+    chance: 50
+  - item: "iron_ingot:0:16"
+    customName: NULL
+    lore: []
+    enchants: []
+    nbt: NULL
+    chance: 50
+
+...

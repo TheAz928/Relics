@@ -1,0 +1,9 @@
+---
+name: Relics
+version: 1.0.2
+author: TheAz928
+api: 3.0.0
+main: TheAz928\Relics\Relics
+description: "A relics plugin for PocketMine-MP by TheAz928"
+
+...
